@@ -1,0 +1,95 @@
+.header{
+    background-color: $color-1;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+    }
+    &__item{
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item img{
+        height: 45px;
+    }
+    &__hamburger {
+        width: 30px;
+        height: 19px;
+        cursor:pointer;
+        & span{
+            display: block;
+            height: 3px;
+            width: 100%;
+            background-color: $color-2;
+            margin-bottom: 5px;
+            transition: 0.5s all;
+        }
+        &_active span {
+            margin-bottom: -2px;
+        }
+    }
+    &__item_catalog{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    &__catalog{
+        font-weight: 400;
+        font-size: 24px;
+    }
+    &__item_search {
+        position: relative;
+    }
+    &__item_search input {
+        width: 500px;
+        height: 45px;
+        border: 1px solid $color-2;
+        border-radius: 1px;
+        padding: 0 85px 0 20px;
+        &::placeholder{
+            font-weight: 400;
+            font-size: 18px;
+            color: #747474;
+        }
+    }
+    &__item_search button{
+        position: absolute;
+        right: 0;
+        width: 65px;
+        height: 100%;
+        background: $color-2;
+        &::before{
+            content: url(../icons/search.svg);
+        }
+    }
+    &__item_col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+        cursor:pointer;
+    }
+    &__item_col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 400;
+        font-size: 16px;
+        cursor:pointer;
+        text-decoration: none;
+        color: #000;
+    }
+    &__item_phone{
+        font-weight: 600;
+        font-size: 24px;
+        cursor:pointer;
+    }
+}

@@ -1,0 +1,136 @@
+.slider__item{
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(278.04deg, #FFE9DA 0%, #FFF4EC 100%);
+    // border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.slider__item img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.slider__descr{
+    position: absolute;
+    left: 85px;
+    top: 90px;
+}
+.slider__descr h1{
+    font-weight: 800;
+    font-size: 56px;
+    margin: 20px 0;
+}
+.slider__descr span{
+    font-weight: 400;
+    font-size: 28px;
+}
+.slider__descr button{
+    margin-top: 75px;
+}
+.slick-dots {
+    display: flex;
+    justify-content: center;
+}
+.slick-dots button {
+    font-size:0;
+    display: none;
+}
+.slick-dots li {
+    list-style-type: none;
+    width: 13px;
+    height: 13px;
+    border: 2px solid $color-2;
+    border-radius: 50%;
+    margin: 0 11px;
+    z-index: 10;
+    position: relative;
+    bottom: 30px;
+}
+.slick-dots li.slick-active {
+    background-color: $color-2;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -15px 0 0 0;
+    z-index: 2;
+    font-size: 0;
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+.slider .slick-arrow.slick-prev{
+    left: -28px;
+    background: url('../icons/arrowL.svg') 0 0 / 100% no-repeat;
+
+}
+.slider .slick-arrow.slick-next{
+    right: -28px;
+    background: url('../icons/arrowR.svg') 0 0 / 100% no-repeat;
+}
+
+
+// card
+
+.slider_card .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -15px 0 0 0;
+    z-index: 2;
+    font-size: 0;
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+.slider_card .slick-arrow.slick-prev{
+    left: -28px;
+    background: url('../icons/arrowL.svg') 0 0 / 100% no-repeat;
+
+}
+.slider_card .slick-arrow.slick-next{
+    right: -28px;
+    background: url('../icons/arrowR.svg') 0 0 / 100% no-repeat;
+}
+
+.slider_card .slick-dots li {
+    bottom: -30px;
+}
+
+.slider_card .slick-list{
+margin-right: -10px;
+}
+
+// product
+
+.product-slider{
+    width: 500px;
+}
+
+.product-slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    margin: -15px 0 0 0;
+    z-index: 2;
+    font-size: 0;
+    width: 55px;
+    height: 55px;
+    border: none;
+}
+.product-slider .slick-arrow.slick-prev{
+    left: -28px;
+    background: url('../icons/arrowL.svg') 0 0 / 100% no-repeat;
+
+}
+.product-slider .slick-arrow.slick-next{
+    right: -28px;
+    background: url('../icons/arrowR.svg') 0 0 / 100% no-repeat;
+}
+.product-slider .slick-slide img{ 
+    width: 80%;
+    margin: 0 auto;
+}

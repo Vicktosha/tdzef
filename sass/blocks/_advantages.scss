@@ -1,0 +1,44 @@
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+    &__item{
+        width: 430px;
+        height: 100px;
+        background: linear-gradient(94.09deg, #DE7C35 0%, #FEA361 100%);
+        border-radius: 1px;
+        padding-right: 38px;
+        cursor:pointer;
+
+        font-weight: 600;
+        font-size: 21px;
+        color: #FFFFFF;
+        position: relative;
+        &::before{
+            content: url(../icons/minPrice.svg);
+            position: absolute;
+            left: 22px;
+            top: calc(50% - 32px);
+            // background: linear-gradient(68.66deg, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0.85) 100%);
+        }
+    }
+    &__item:hover {
+        scale: 1.05;
+        z-index: 3;
+        box-shadow: 1px 1px 10px 1px black;
+    }
+    &__item:nth-child(2)::before{
+        content: url(../icons/delivery.svg);
+    }
+    &__item:nth-child(3)::before{
+        content: url(../icons/wallet.svg);
+    }
+    &__item img {
+        height: 100%;
+    }
+    &__item span {
+        position: absolute;
+        right: 10%;
+        top: 35%;
+    }
+}

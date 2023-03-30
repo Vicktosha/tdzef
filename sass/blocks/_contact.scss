@@ -1,0 +1,25 @@
+.contact{
+    display: grid;
+    grid-template: 1fr 1fr / 400px 400px;
+    justify-items: start;
+    align-items: start;
+    gap: 30px;
+}
+
+.contact div{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_s {
+    display: grid;
+    grid-template: 1fr / 450px 450px;
+    justify-items: start;
+    align-items: start;
+    gap: 30px;
+}
+
+.contact_s div{
+    display: flex;
+    flex-direction: column;
+}

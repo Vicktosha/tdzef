@@ -1,0 +1,95 @@
+.purchases {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.purchases__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.purchases__item {
+    position: relative;
+    display: grid;
+    grid-template: 1fr / 80px 860px 106px 120px;
+    align-items: center;
+    border-top: 1px solid #DADADA;
+    gap: 30px;
+    padding: 15px 0 0 15px;
+    &:nth-last-child(1){
+        border-bottom: 1px solid #DADADA;
+    }
+}
+.purchases__item::after{
+    content: url(../icons/close.svg);
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+.product__img {
+    width: 100%;
+}
+.purchases__input{
+    position: relative;
+}
+.purchases__input input {
+    height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+   
+    width: 100%;
+    
+}
+.purchases__input input::placeholder{
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 47%;
+}
+.purchases__input::after{
+    content: url(../icons/plus.svg);
+    position: absolute;
+    top: 35%;
+    right: 10px;
+}
+.purchases__input::before{
+    content: url(../icons/minus.svg);
+    position: absolute;
+    top: 20%;
+    left: 10px;
+}
+.purchases__total {
+    background: $color-1;
+    padding: 30px;
+}
+.purchases__amount {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #747474;
+    margin-bottom: 40px;
+}
+.purchases__sum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 110%;
+
+    margin-bottom: 20px;
+}
+.purchases__description{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    justify-items: flex-start;
+    gap: 30px;
+}
+.purchases__description h2{
+    margin-bottom: 20px;
+}

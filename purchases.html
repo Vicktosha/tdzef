@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зеф-С</title>
+    <meta name="title" content="Зеф-С">
+    <meta name="description" content="Продажа кондитерских изделий">
+
+    <script src="js/jQuery3.6.3.js"></script>
+    <script src="js/jquery-migrate-v1.4.1.js"></script>
+    <script src="js/slick.min.js"></script>		
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="sass/style.css">
+    
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="./index.html" class="header__item">
+                <img class="header__item_logo" src="./icons/Logotype.png" alt="logo">
+            </a>
+            <div class="header__item header__item_catalog">
+                <div class=" header__hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__catalog">Каталог</div>
+            </div>
+            <div class="header__item header__item_search">
+                <input type="text" placeholder="Например, вафли">
+                <button type="submit"></button>
+            </div>
+            <div class="header__item header__item_col">
+                <img src="./icons/enter.svg" alt="enter">
+                <span>Войти</span>
+            </div>
+            <a href="./purchases.html" class="header__item header__item_col">
+                <img src="./icons/shopping.svg" alt="shopping">
+                <span>Корзина</span>
+            </a>
+            <div class="header__item header__item_phone">
+                +7 (38464) 3-40-15
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="breadcrumbs">
+    <div class="container">
+        <ul class="breadcrumbs__text">
+            <li><a href="./index.html">Главная</a></li>
+            <li>Корзина</li>
+        </ul>
+    </div>
+</div>
+
+<section class="block block_pt0">
+    <div class="container">
+        <div class="block__inner">
+            <h2>Корзина</h2>
+            <div class="purchases">
+                <div class="purchases__list">
+                    <div class="purchases__item">
+                        <img src="./img/cornline.png" alt="cornline" class="product__img">
+                        <div class="purchases__text">
+                            <div class="product__text">
+                                «Cornline», зерновой батончик с кокосом, 30 г
+                            </div>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                        </div>
+                        <div class="purchases__input">
+                            <input type="text" placeholder="1">
+                        </div>
+                        
+                        <div class="card__price">
+                            10,80 ₽
+                        </div>
+                    </div>
+
+                    <div class="purchases__item">
+                        <img src="./img/cornline.png" alt="cornline" class="product__img">
+                        <div class="purchases__text">
+                            <div class="product__text">
+                                «Cornline», зерновой батончик с кокосом, 30 г
+                            </div>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                        </div>
+                        <div class="purchases__input">
+                            <input type="text" placeholder="1">
+                        </div>
+                        
+                        <div class="card__price">
+                            10,80 ₽
+                        </div>
+                    </div>
+                </div>
+
+                <div class="purchases__total">
+                    <h2>Итого:</h2>
+                    <div class="purchases__amount">
+                        2 товара
+                    </div>
+    
+                    <div class="purchases__sum">
+                        На сумму:
+                        <div class="card__price card__price_sum ">32,80 ₽</div>
+                    </div>
+                    <button class="button-card">Перейти к оформлению</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="block_30 block_peach">
+    <div class="container">
+        <div class="advantages">
+            <a class="advantages__item">
+                <img src="./img/Rectangle.png" alt="triangle">
+               <span> Минимальные цены</span>
+            </a>
+            <a href="./info.html" class="advantages__item">
+                <img src="./img/Rectangle.png" alt="triangle">
+                <span>Бесплатная доставка</span>
+            </a>
+            <a class="advantages__item">
+                <img src="./img/Rectangle.png" alt="triangle">
+                <span>Удобная оплата</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="block">
+    <div class="container">
+        <div class="purchases__description">
+            <div>
+                <h2>Оплата заказов</h2>
+                <p class="text">
+                    Оплата товаров производится согласно ценам, указанным в каталоге интернет-магазина ТД Зеф-С, зафиксированным в оплачиваемом клиентом заказе и сопроводительных документах.
+                </p>
+            </div>
+            <div>
+                <h2>Оплата банковской картой</h2>
+                <p class="text">
+                    Заказ можно оплатить банковской картой при получении. Оплату примет курьер. <br>
+                    Принимаются платежи со следующих банковских карт: <br>
+                    VISA International, Mastercard Worldwide, МИР
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer class="block block_grey">
+    <div class="container">
+        <div class="footer">
+            <button class="button-card button-card_footer">Проверить статус заказа</button>
+
+            <ul>
+                <li><a href="./info.html" class="footer__link">Доставка</a></li>
+                <li><a href="#" class="footer__link">Оплата заказа</a></li>
+                <li><a href="#" class="footer__link">Как купить</a></li>
+                <li><a href="./info.html" class="footer__link">Доставка и оплата</a></li>
+                <li><a href="#" class="footer__link">О магазине</a></li>
+                <li><a href="./contact.html" class="footer__link">Контакты</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#" class="footer__link">Договор купли продажи</a></li>
+                <li><a href="#" class="footer__link">Информация для Юр. лиц</a></li>
+                <li><a href="#" class="footer__link">Договор поставки</a></li>
+                <li><a href="#" class="footer__link">Персональные данные</a></li>
+                <li><a href="#" class="footer__link">Политика конфедициальности</a></li>
+            </ul>
+
+            <div class="footer__contact">
+                <div>
+                    <span class="text">Свяжитесь с нами:</span>
+                    <a href="mailto:info@mail.ru" class="footer__mail">info@mail.ru</a>
+                </div>
+                <div>
+                    <span class="text">Служба поддержки:</span>
+                    <a href="tel:+78009005010" class="footer__mail">8 800 900 50 10</a>
+                </div>
+                <p class="text">
+                    7 дней в неделю с 05:00 до 22:00 <br>
+                    по московскому времени, для звонков по РФ, 
+                    звонок бесплатный
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>

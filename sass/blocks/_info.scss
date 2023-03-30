@@ -1,0 +1,14 @@
+.autoBg{
+    background: url(../img/autobg.png);
+    background-size: cover;
+    height: 120px;
+}
+.autoBg_mobile{
+    position: absolute;
+    width: 100vw;
+    background: url(../img/autobg.png);
+    background-size: cover;
+    height: 120px;
+    top: 215px;
+    display: none;
+}

@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зеф-С</title>
+    <meta name="title" content="Зеф-С">
+    <meta name="description" content="Продажа кондитерских изделий">
+
+    <script src="js/jQuery3.6.3.js"></script>
+    <script src="js/jquery-migrate-v1.4.1.js"></script>
+    <script src="js/slick.min.js"></script>		
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="sass/style.css">
+    
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="./index.html" class="header__item">
+                <img class="header__item_logo" src="./icons/Logotype.png" alt="logo">
+            </a>
+            <div class="header__item header__item_catalog dropdown">
+
+                <div class=" header__hamburger dropbtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header__catalog dropbtn">Каталог</div>
+                <div class="dropdown-content">
+                    <a href="#">Вафли</a>
+                    <a href="#">Крекеры</a>
+                    <a href="#">Печенье</a>
+                    <a href="#">Сухие завтраки</a>
+                </div>
+            </div>
+
+
+            <div class="header__item header__item_search">
+                <input type="text" placeholder="Например, вафли">
+                <button type="submit"></button>
+            </div>
+            <a class="header__item header__item_col">
+                <img src="./icons/enter.svg" alt="enter">
+                <span>Войти</span>
+            </a>
+            <a href="./purchases.html" class="header__item header__item_col">
+                <img src="./icons/shopping.svg" alt="shopping">
+                <span>Корзина</span>
+            </a>
+            <div class="header__item header__item_phone">
+                +7 (38464) 3-40-15
+            </div>
+        </div>
+    </div>
+</header>
+
+<input class="mobile-search" type="text" placeholder="Например, вафли">
+
+<section class="blockP30">
+    <div class="container">
+        <div class="slider">
+            <div>
+                <div class="slider__item">
+                    <div class="slider__descr">
+                        <h1>Семечки жареные “Жаро”</h1>
+                        <span>
+                            Сделано в России
+                            <br>
+                            100% натуральный продукт
+                        </span>
+                        <button class="button">Добавить в корзину</button>
+                    </div>
+                    <img src="./img/bigSlide1.png" alt="bigSlide">
+                </div>
+            </div>
+            <div>
+                <div class="slider__item">
+                    <div class="slider__descr">
+                        <h1>Семечки жареные “Жаро”</h1>
+                        <span>
+                            Сделано в России
+                            <br>
+                            101% натуральный продукт
+                        </span>
+                        <button class="button">Добавить в корзину</button>
+                    </div>
+                    <img src="./img/bigSlide1.png" alt="bigSlide">
+                </div>
+            </div>
+            <div>
+                <div class="slider__item">
+                    <div class="slider__descr">
+                        <h1>Семечки жареные “Жаро”</h1>
+                        <span>
+                            Сделано в России
+                            <br>
+                            102% натуральный продукт
+                        </span>
+                        <button class="button">Добавить в корзину</button>
+                    </div>
+                    <img src="./img/bigSlide1.png" alt="bigSlide">
+                </div>
+            </div>
+        </div>
+
+        <div class="advantages">
+            <a class="advantages__item">
+                <img src="./img/Rectangle.png" alt="triangle">
+               <span> Минимальные цены</span>
+            </a>
+            <a href="./info.html" class="advantages__item">
+                <img src="./img/Rectangle.png" alt="triangle">
+                <span>Бесплатная доставка</span>
+            </a>
+            <a class="advantages__item">
+                <img src="./img/Rectangle.png" alt="triangle">
+                <span>Удобная оплата</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="block block_slider">
+    <div class="container">
+        <div class="block__inner">
+            <h2>Рекомендуем вам</h2>
+            <div class="slider_card">
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block">
+    <div class="container">
+        <div class="block__inner">
+            <a href="./catalog.html" style="text-decoration: none; color: #000;"><h2>Категории</h2></a>
+            <div class="category">
+                <div class="category__item">
+                    <img src="./img/category1.png" alt="category">
+                    <div class="category__text">Акции</div>
+                    <div class="triangle"></div>
+                </div>
+                <div class="category__item">
+                    <img src="./img/category2.png" alt="category">
+                    <div class="category__text">Акции</div>
+                    <div class="triangle"></div>
+                </div>
+                <div class="category__item">
+                    <img src="./img/category3.png" alt="category">
+                    <div class="category__text">Акции</div>
+                    <div class="triangle"></div>
+                </div>
+                <div class="category__item">
+                    <img src="./img/category4.png" alt="category">
+                    <div class="category__text">Акции</div>
+                    <div class="triangle"></div>
+                </div>
+                <div class="category__item">
+                    <img src="./img/category5.png" alt="category">
+                    <div class="category__text">Акции</div>
+                    <div class="triangle"></div>
+                </div>
+                <div class="category__item">
+                    <img src="./img/category6.png" alt="category">
+                    <div class="category__text">Акции</div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <button class="button-card button_more">Показать еще</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block_grey">
+    <div class="container">
+        <div class="block__inner">
+            <h2>Новинки</h2>
+            <div class="card-novelty">
+                <div class="card__item">
+                    <div class="card__img">
+                        <img src="./img/news1.png" alt="bigSlide">
+                    </div>
+                    <div class="card__desc">
+                        <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                        <div class="card__price">
+                            10,80 ₽
+                            <div class="card__priceS"><s>11,80 ₽</s></div>
+                        </div>
+                        
+                    </div>
+                    <div class="card__buttons">
+                        <button class="button-heart">
+                            <img src="./icons/heart.svg" alt="heart">
+                        </button>
+                        <button class="button-card">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__img">
+                        <img src="./img/news1.png" alt="bigSlide">
+                    </div>
+                    <div class="card__desc">
+                        <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                        <div class="card__price">
+                            10,80 ₽
+                            <div class="card__priceS"><s>11,80 ₽</s></div>
+                        </div>
+                        
+                    </div>
+                    <div class="card__buttons">
+                        <button class="button-heart">
+                            <img src="./icons/heart.svg" alt="heart">
+                        </button>
+                        <button class="button-card">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="card__wrap">
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__item card__item_description">
+                        <span class="card__text">Тараллини - это миниатюрные рассыпчатые сушки. </span>
+                        <p class="text">
+                            В составе тараллини (итальянские сушки диаметром 25 мм) только натуральные ингредиенты: мука высшего сорта, подсоленная вода, высокоолеиновое подсолнечное масло и сушеный чеснок. 
+                        </p>
+                        <p class="text">
+                            Итальянская сушка не содержит сахара, чего не скажешь о ее русской родственнице. 
+                        </p>
+                        <ul class="text">
+                            <li>
+                                В составе тараллини нет пальмового масла и консервантов. 
+                            </li>
+                            <li>
+                                Тараллини - вкусный и полезный перекус для любителей похрустеть любого возраста.
+                            </li>
+                        </ul>
+                        <a href="#" class="card__link">Узнать больше о тараллини</a>
+                    </div>
+                </div>
+
+                <div class="card__wrap">
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card__item card__item_description">
+                        <span class="card__text">Паприка молотая – ароматная пряность ярко-красного цвета из сладких сортов красного стручкового перца.</span>
+                        <p class="text">
+                            Паприка обладает тонким ароматом с фруктовыми нотками и сладковатым вкусом с легкой горчинкой. Пряность добавляют к мясу, птице, используют для приготовления овощных, рыбных блюд и корейских салатов. 
+                        </p>
+                        <p class="text">
+                            Паприку не стоит использовать для жареных блюд – она может придать им горьковатый привкус.  
+                        </p>
+                        <p>
+                            Интенсивный цвет паприки проявляется при смешивании с растительным маслом.
+                        </p>
+                        <a href="#" class="card__link">Узнать больше о тараллини</a>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__img">
+                        <img src="./img/news1.png" alt="bigSlide">
+                    </div>
+                    <div class="card__desc">
+                        <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                        <div class="card__price">
+                            10,80 ₽
+                            <div class="card__priceS"><s>11,80 ₽</s></div>
+                        </div>
+                        
+                    </div>
+                    <div class="card__buttons">
+                        <button class="button-heart">
+                            <img src="./icons/heart.svg" alt="heart">
+                        </button>
+                        <button class="button-card">Добавить в корзину</button>
+                    </div>
+                </div>
+
+                <div class="card__item">
+                    <div class="card__img">
+                        <img src="./img/news1.png" alt="bigSlide">
+                    </div>
+                    <div class="card__desc">
+                        <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                        <div class="card__price">
+                            10,80 ₽
+                            <div class="card__priceS"><s>11,80 ₽</s></div>
+                        </div>
+                        
+                    </div>
+                    <div class="card__buttons">
+                        <button class="button-heart">
+                            <img src="./icons/heart.svg" alt="heart">
+                        </button>
+                        <button class="button-card">Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block_slider block_slider-orange">
+    <div class="container">
+        <div class="block__inner">
+            <h2>Хиты продаж</h2>
+            <div class="slider_card">
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card__item">
+                        <div class="card__img">
+                            <img src="./img/news1.png" alt="bigSlide">
+                        </div>
+                        <div class="card__desc">
+                            <span class="card__text">«Галерея вкусов», чеснок молотый, 10 г</span>
+                            <div class="card__price">
+                                10,80 ₽
+                                <div class="card__priceS"><s>11,80 ₽</s></div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__buttons">
+                            <button class="button-heart">
+                                <img src="./icons/heart.svg" alt="heart">
+                            </button>
+                            <button class="button-card">Добавить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block_peach">
+    <div class="container">
+        <div class="block__inner">
+            <h2>О компании</h2>
+            <p class="text">
+                ТД Зеф-С - это интернет-супермаркет, крупнейшего в России поставщика продуктов питания и товаров повседневного спроса. Покупайте напрямую с бесплатной доставкой до порога. Минимальная сумма заказа — всего от 300 ₽
+            </p>
+            <p class="text">
+                Больше не нужно носить тяжелые сумки, ваши покупки будут доставлены к порогу дома курьером уже на следующий день.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer class="block block_grey">
+    <div class="container">
+        <div class="footer">
+            <button class="button-card button-card_footer">Проверить статус заказа</button>
+
+            <ul>
+                <li><a href="./info.html" class="footer__link">Доставка</a></li>
+                <li><a href="#" class="footer__link">Оплата заказа</a></li>
+                <li><a href="#" class="footer__link">Как купить</a></li>
+                <li><a href="./info.html" class="footer__link">Доставка и оплата</a></li>
+                <li><a href="#" class="footer__link">О магазине</a></li>
+                <li><a href="./contact.html" class="footer__link">Контакты</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#" class="footer__link">Договор купли продажи</a></li>
+                <li><a href="#" class="footer__link">Информация для Юр. лиц</a></li>
+                <li><a href="#" class="footer__link">Договор поставки</a></li>
+                <li><a href="#" class="footer__link">Персональные данные</a></li>
+                <li><a href="#" class="footer__link">Политика конфедициальности</a></li>
+            </ul>
+
+            <div class="footer__contact">
+                <div>
+                    <span class="text">Свяжитесь с нами:</span>
+                    <a href="mailto:info@mail.ru" class="footer__mail">info@mail.ru</a>
+                </div>
+                <div>
+                    <span class="text">Служба поддержки:</span>
+                    <a href="tel:+78009005010" class="footer__mail">8 800 900 50 10</a>
+                </div>
+                <p class="text">
+                    7 дней в неделю с 05:00 до 22:00 <br>
+                    по московскому времени, для звонков по РФ, 
+                    звонок бесплатный
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>

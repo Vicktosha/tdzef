@@ -1,0 +1,50 @@
+@import 'libs/normalize.css';
+// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+@import 'base/variables';
+@import 'libs/slick.css';
+
+@font-face {
+	font-family: 'Inter';
+		src:url('../fonts/Inter-VariableFont_slnt,wght.ttf'),
+}
+
+* {
+    transition: 0.3s all;
+    font-family: 'Inter';
+    input {
+        outline:none;
+    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    button:hover{
+        transform: scale(1.05);
+        cursor:pointer;
+    };
+    button {
+        border: none;
+        // &:hover{
+        //     border: none;
+        // };
+    }
+    a:hover{
+        transform: scale(1.05)
+    };
+}
+
+@import 'blocks/header';
+@import 'blocks/slider';
+@import 'blocks/button';
+@import 'blocks/advantages';
+@import 'blocks/block';
+@import 'blocks/card';
+@import 'blocks/category';
+@import 'blocks/footer';
+@import 'blocks/breadcrumbs';
+@import 'blocks/catalog';
+@import 'blocks/product';
+@import 'blocks/purchases';
+@import 'blocks/info';
+@import 'blocks/contact';
+
+@import 'blocks/media';

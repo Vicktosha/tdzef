@@ -1,0 +1,40 @@
+.block {
+    background: #fff;
+    padding: 50px 0;
+}
+.block__inner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+.block_slider {
+    background: $color-1;
+    padding: 50px 0 80px 0;
+}
+.block_grey{
+    background: $color-1;
+}
+
+.block_slider-orange{
+    background: #fff;
+}
+
+.block_peach{
+    background: $color-3;
+}
+.block_catalog{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.block_30{
+    padding: 30px 0;
+}
+
+.block_pt0{
+    padding-top: 0;
+}
